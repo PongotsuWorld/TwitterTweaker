@@ -1,0 +1,10 @@
+{
+  "name": "TwitterTweaker",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "いらんものを消す",
+  "content_scripts": [{
+    "matches": ["https://x.com/*"],
+    "css": ["change.css"]
+  }]
+}
