@@ -16,6 +16,10 @@ a[href="/i/account_analytics"] {
   display: none;
 }
 
+.css-175oi2r.r-1ifxtd0:has([data-testid="super-upsell-UpsellCardRenderProperties"]) {
+  display: none;
+}
+
 .css-175oi2r.r-173mn98.r-6gpygo.r-1rtiivn.r-hvns9x.r-1jte41z.r-bnwqim.r-5wli1b {
   display: none;
 }
