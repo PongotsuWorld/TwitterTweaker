@@ -1,0 +1,96 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 330px;
+}
+
+.content {
+  background-color: #15202b;
+  border: #15202b solid 1px;
+  padding: 10px 24px;
+}
+
+.text {
+  color: #8B98A5;
+  font-size: 16px;
+}
+
+span#account {
+  color: #F7F9F9;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.date_box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+input[type="date"] {
+  background-color: transparent;
+  padding: 8px 26px;
+  font-size: 16px;
+  color: #F7F9F9;
+  width: 168px;
+  border: 0;
+  box-sizing: border-box;
+}
+
+input[type="date"]:focus-visible {
+  outline: none;
+}
+
+label {
+  position: relative;
+  display: inline-block;
+  border: #38444d solid 1.5px;
+  border-radius: 100vh;
+  width: 200px;
+}
+
+label::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  right: 8px;
+  width: 36px;
+  height: 36px;
+  background-image: url("calendar.svg");
+  color: #8B98A5;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input[type="date"]::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+}
+
+input[type="date"]::-webkit-clear-button{
+  -webkit-appearance: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator{
+  position: absolute;
+  right: 8px;
+  top: 0px;
+  padding: 0;
+  width: 36px;
+  height: 36px;
+  background: transparent;
+  color: transparent;
+  cursor: pointer;
+}
+
+button#search {
+  background-color: #eff3f4;
+  color: #15202b;
+  border: none;
+  padding: 12px 18px;
+  margin-top: 16px;
+  width: 100%;
+  border-radius: 100vh;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
